@@ -1,9 +1,9 @@
 # StockTradingEngine
-##Stock Trading Order Matching System
+## Stock Trading Order Matching System
 
 This is a simple stock trading order matching system implemented in Python using a list-of-lists approach for storing buy and sell orders. It supports multi-threaded order processing and matches trades based on price and availability.
 
-###Features
+### Features
 
 Supports 1,024 different stock tickers.
 
@@ -13,7 +13,7 @@ Orders are sorted and matched based on price.
 
 Uses threading to simulate real-time trading.
 
-###How It Works
+### How It Works
 
 Orders are added to buy or sell lists based on the ticker symbol.
 
@@ -25,11 +25,11 @@ The system continuously matches buy and sell orders based on price.
 
 If a match occurs, the trade is executed, and quantities are updated.
 
-###Installation
+### Installation
 
 No external dependencies are required. Just ensure you have Python installed.
 
-###Running the Program
+### Running the Program
 
 Simply run the script:
 ```
